@@ -1,0 +1,49 @@
+{
+  "profiles": [
+    {
+      "scale": 0,
+      "name": "Conservador",
+      "maxAnnualizedVolatility": "Menor a 3.5%",
+      "investmentHorizon": "Entre 0 y 2 años",
+      "concentration": "10% Emisores Renta Fija, 100% Emisores Renta variable",
+      "code": "CON",
+      "volatility": null
+    },
+    {
+      "scale": 0.035,
+      "name": "Prudente",
+      "maxAnnualizedVolatility": "Menor a 8%",
+      "investmentHorizon": "Entre 2 y 5 años",
+      "concentration": "10% Emisores Renta Fija, 100% Emisores Renta variable",
+      "code": "PRU",
+      "volatility": null
+    },
+    {
+      "scale": 0.08,
+      "name": "Moderado",
+      "maxAnnualizedVolatility": "Menor a 15%",
+      "investmentHorizon": "Entre 2 y 5 años",
+      "concentration": "10% Emisores Renta Fija, 100% Emisores Renta variable",
+      "code": "MOD",
+      "volatility": null
+    },
+    {
+      "scale": 0.15,
+      "name": "Decidido",
+      "maxAnnualizedVolatility": "Menor a 20%",
+      "investmentHorizon": "Más de 5 años",
+      "concentration": "10% Emisores Renta Fija, 100% Emisores Renta variable",
+      "code": "DEC",
+      "volatility": null
+    },
+    {
+      "scale": 0.2,
+      "name": "Mayor Riesgo",
+      "maxAnnualizedVolatility": "Mayor a 20%",
+      "investmentHorizon": "Más de 5 años",
+      "concentration": "10% Emisores Renta Fija, 100% Emisores Renta variable",
+      "code": "MAY",
+      "volatility": null
+    }
+  ]
+}
