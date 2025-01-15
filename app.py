@@ -23,8 +23,10 @@ def create_app():
 
     app = Flask(__name__)
     
-    JSONEncoder = DefaultJSONProvider().encoder
+    
     app.json = DefaultJSONProvider(app)
+    
+    
     
     
     app.config['SWAGGER'] = {
